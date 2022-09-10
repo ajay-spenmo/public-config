@@ -1,0 +1,17 @@
+"vim.leader": "<space>",
+"vim.insertModeKeyBindings": [
+  {
+    "before": ["k", "j"],
+    "after": ["<Esc>"]
+  }
+],
+"vim.normalModeKeyBindingsNonRecursive": [
+  {
+    "before": ["leader", "w"],
+    "commands": ["workbench.action.files.save"]
+  },
+  {
+    "before": ["leader", "q"],
+    "commands": [":q"]
+  }
+],
